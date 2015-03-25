@@ -1,13 +1,13 @@
 中间件技术 COM 实验示例代码
 =======================
 
-### 运行环境
+## 运行环境
 
 * Windows 7/8 
 * Visual Studio 2013 Express for Windows Desktop / Community
 
 
-### 代码说明
+## 代码说明
 
 仓库中包含了多个 COM 实现：
 
@@ -17,11 +17,16 @@
     
 * [使用第三方库](https://github.com/HIT-Alibaba/COM-Example/tree/master/Use-Third-Party-Lib)
 
-	使用 [xlLib](https://github.com/Streamlet/xlLib) 库的实现
+	使用 [xlLib](https://github.com/Streamlet/xlLib) 库的实现。
 	
-### 注意事项
+## 注意事项
 
 * 注册 DLL 需要以管理员模式运行 cmd，然后再执行 regsvr32， 不然不能正确注册，切记！
 
     
+## 贡献者
+
+* [skyline75489](https://github.com/skyline75489)
+* [marcoszh](https://github.com/marcoszh)
+* 以及不上 Github 的龙哥
 
