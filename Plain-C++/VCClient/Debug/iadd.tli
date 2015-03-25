@@ -1,0 +1,47 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.31101.0 (238b324c).
+//
+// c:\users\user\program\comstepbystep_src\vcclient\debug\iadd.tli
+//
+// Wrapper implementations for Win32 type library IAdd.tlb
+// compiler-generated file created 03/25/15 at 08:58:54 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface IAdd wrapper method implementations
+//
+
+inline HRESULT IAdd::SetFirstNumber ( long nX1 ) {
+    HRESULT _hr = raw_SetFirstNumber(nX1);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IAdd::SetSecondNumber ( long nX2 ) {
+    HRESULT _hr = raw_SetSecondNumber(nX2);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long IAdd::DoTheAddition ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_DoTheAddition(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IFileIO wrapper method implementations
+//
+
+inline HRESULT IFileIO::EnableLog ( long nEnable ) {
+    HRESULT _hr = raw_EnableLog(nEnable);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IFileIO::IsEnabled ( long * pEnabled ) {
+    HRESULT _hr = raw_IsEnabled(pEnabled);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}

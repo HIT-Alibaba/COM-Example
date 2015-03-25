@@ -1,0 +1,49 @@
+--------------------Configuration: AddObj - Win32 Debug--------------------
+Begining build with project "D:\work\COM_training\Code_Guru_Submission\AddObj\AddObj.dsp", at root.
+Active configuration is Win32 (x86) Dynamic-Link Library (based on Win32 (x86) Dynamic-Link Library)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MTd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR"Debug/" /Fp"Debug/AddObj.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /o NUL /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x409 /fo"Debug/resource.res" /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/AddObj.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/AddObj.pdb" /debug /machine:I386 /def:".\Exports.def" /out:"Debug/AddObj.dll" /implib:"Debug/AddObj.lib" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating command line "rc.exe /l 0x409 /fo"Debug/resource.res" /d "_DEBUG" "D:\work\COM_training\Code_Guru_Submission\AddObj\resource.rc"" 
+Creating temp file "C:\TEMP\RSP288.tmp" with contents </nologo /MTd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR"Debug/" /Fp"Debug/AddObj.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"D:\work\COM_training\Code_Guru_Submission\AddObj\AddObj.cpp"
+"D:\work\COM_training\Code_Guru_Submission\AddObj\AddObjFactory.cpp"
+"D:\work\COM_training\Code_Guru_Submission\AddObj\Exports.cpp"
+"D:\work\COM_training\Code_Guru_Submission\AddObj\REGISTRY.CPP"
+>
+Creating command line "cl.exe @C:\TEMP\RSP288.tmp" 
+Creating temp file "C:\TEMP\RSP289.tmp" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/AddObj.pdb" /debug /machine:I386 /def:".\Exports.def" /out:"Debug/AddObj.dll" /implib:"Debug/AddObj.lib" /pdbtype:sept 
+.\Debug\AddObj.obj
+.\Debug\AddObjFactory.obj
+.\Debug\Exports.obj
+.\Debug\REGISTRY.OBJ
+.\Debug\resource.res>
+Creating command line "link.exe @C:\TEMP\RSP289.tmp" 
+Compiling resources...
+Compiling...
+AddObj.cpp
+AddObjFactory.cpp
+Exports.cpp
+REGISTRY.CPP
+Linking...
+   Creating library Debug/AddObj.lib and object Debug/AddObj.exp
+Creating command line "bscmake.exe /nologo /o"Debug/AddObj.bsc"  .\Debug\AddObj.sbr .\Debug\AddObjFactory.sbr .\Debug\Exports.sbr .\Debug\REGISTRY.SBR" 
+Creating browse info file...
+Creating temp file "C:\TEMP\RSP28B.bat" with contents <@echo off
+echo Registering the DLL
+regsvr32 Debug\AddObj.dll
+>
+Creating command line "C:\TEMP\RSP28B.bat" 
+
+Registering the DLL
+
+
+
+AddObj.dll - 0 error(s), 0 warning(s)

@@ -1,0 +1,44 @@
+﻿Build started 2015/3/25 8:48:42.
+     1>Project "C:\Users\user\Program\COMStepByStep_src\AddObj\AddObj.vcxproj" on node 2 (Rebuild target(s)).
+     1>Midl:
+         C:\Program Files\Windows Kits\8.1\bin\x86\midl.exe /D _DEBUG /W1 /nologo /char signed /env win32 /h "IAdd_h.h" /tlb ".\Debug\AddObj.tlb" /o "NUL" IAdd.idl 
+         IAdd.idl
+         unknwn.idl
+         wtypes.idl
+         wtypesbase.idl
+         basetsd.h
+         guiddef.h
+         oaidl.idl
+         objidl.idl
+         oaidl.acf
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _WINDLL /Gm /EHsc /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt AddObj.cpp AddObjFactory.cpp Exports.cpp REGISTRY.CPP
+         REGISTRY.CPP
+         Exports.cpp
+         AddObjFactory.cpp
+         AddObj.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /l"0x0409" /I.\Debug\ /nologo /fo".\Debug\resource.res" resource.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\AddObj.dll" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\Exports.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\AddObj.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\AddObj.lib" /MACHINE:X86 /SAFESEH /DLL .\Debug\resource.res
+         .\Debug\AddObj.obj
+         .\Debug\AddObjFactory.obj
+         .\Debug\Exports.obj
+         .\Debug\REGISTRY.obj
+     1>AddObj.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     1>.\Exports.def(5): warning LNK4017: DESCRIPTION statement not supported for the target platform; ignored
+            Creating library .\Debug\AddObj.lib and object .\Debug\AddObj.exp
+         AddObj.vcxproj -> C:\Users\user\Program\COMStepByStep_src\AddObj\.\Debug\AddObj.dll
+       BscMake:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\Debug\AddObj.bsc" .\Debug\AddObj.sbr .\Debug\AddObjFactory.sbr .\Debug\Exports.sbr .\Debug\REGISTRY.sbr
+       PostBuildEvent:
+         echo Registering the DLL
+         regsvr32 Debug\AddObj.dll
+         :VCEnd
+         Registering the DLL
+     1>Done Building Project "C:\Users\user\Program\COMStepByStep_src\AddObj\AddObj.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.67

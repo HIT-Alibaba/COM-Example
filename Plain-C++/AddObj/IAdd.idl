@@ -1,0 +1,60 @@
+import "unknwn.idl";
+
+[
+object,
+uuid(1221db62-f3d8-11d4-825d-00104b3646c0),
+helpstring("interface IAdd is used for implementing a super-fast addition Algorithm")
+]
+
+interface IAdd : IUnknown
+    {
+    HRESULT     SetFirstNumber(long nX1);
+
+    HRESULT     SetSecondNumber(long nX2);
+    
+    HRESULT     DoTheAddition([out,retval] long *pBuffer);
+    };
+
+
+
+[
+object,
+uuid(6bee2d26-f3d8-11d4-825d-00104b3646c0),
+helpstring("interface  IFileIO is used for enabling the COM object to log the operations to a file.")
+]
+
+//
+//The interface IFileIO when implemented by a COM object will allow clients
+//to control the logging of activity to a disk file.
+//
+interface IFileIO : IUnknown
+    {
+
+    //
+    //to enable logging , pass nEnable=1 
+    //to stop logging pass nEnable=0
+    //
+    HRESULT     EnableLog(long nEnable);
+
+    //
+    //if logging has been enabled then, pEnabled passes back 1
+    //otherwise 0 
+    //
+    HRESULT     IsEnabled(long *pEnabled);
+    };
+
+
+
+
+[
+uuid(3ff1aab8-f3d8-11d4-825d-00104b3646c0),
+helpstring("Interfaces for Code-Guru algorithm implementations .")
+]
+library CodeGuruMathLib
+    {
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+    interface IAdd;
+    interface IFileIO;
+    }
