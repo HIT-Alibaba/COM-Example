@@ -26,3 +26,8 @@
 *.exe
 *.out
 *.app
+
+# VS 2010
+*.ipch
+*.sdf
+*.pdb
