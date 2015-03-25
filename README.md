@@ -17,7 +17,11 @@
     
 * [使用第三方库](https://github.com/HIT-Alibaba/COM-Example/tree/master/Use-Third-Party-Lib)
 
-	使用 [xlLib](https://github.com/Streamlet/xlLib) 库的实现。
+	使用 [xlLib](https://github.com/Streamlet/xlLib) 库实现。
+	
+* [使用 ATL](https://github.com/HIT-Alibaba/COM-Example/tree/master/Use-ATL)
+
+    使用 ATL 实现的版本。
 	
 ## 注意事项
 
