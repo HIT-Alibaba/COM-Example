@@ -1,0 +1,41 @@
+﻿生成启动时间为 3/23/15 14:56:59。
+     1>项目“C:\workspace\ComTest1\ComTest1\ComTest1.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\ComTest1.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       Midl:
+         所有输出均为最新。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _ATL_DLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\ComTest1.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MyClass.cpp
+         MyClass.cpp
+         所有输出均为最新。
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\workspace\ComTest1\Debug\ComTest1.dll" /INCREMENTAL /NOLOGO comsvcs.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\ComTest1.def" /MANIFEST /ManifestFile:"Debug\ComTest1.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\workspace\ComTest1\Debug\ComTest1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /DLL Debug\ComTest1.res
+         Debug\ComTest1.dll.embed.manifest.res
+         Debug\compreg.obj
+         Debug\ComTest1.obj
+         Debug\ComTest1_i.obj
+         Debug\dllmain.obj
+         Debug\MyClass.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\ComTest1.dll.embed.manifest" /manifest Debug\ComTest1.dll.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         ComTest1.vcxproj -> C:\workspace\ComTest1\Debug\ComTest1.dll
+       RegisterOutput:
+         regsvr32 /s /n /i:user "C:\workspace\ComTest1\Debug\ComTest1.dll"
+       FinalizeBuildStatus:
+         正在删除文件“Debug\ComTest1.unsuccessfulbuild”。
+         正在对“Debug\ComTest1.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\workspace\ComTest1\ComTest1\ComTest1.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.53
