@@ -31,3 +31,6 @@
 *.ipch
 *.sdf
 *.pdb
+
+# Mac OS X
+.DS_Store
