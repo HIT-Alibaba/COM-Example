@@ -3,8 +3,8 @@
 
 ## 运行环境
 
-* Windows 7/8 
-* Visual Studio 2013 Express for Windows Desktop / Community
+* Windows 10
+* Visual Studio 2017
 
 
 ## 代码说明
