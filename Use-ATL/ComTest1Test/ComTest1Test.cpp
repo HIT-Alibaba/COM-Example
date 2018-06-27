@@ -17,7 +17,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	if(SUCCEEDED(hr))
 	{
 		printf("%s","Please enter a string, we will check if it is an integer:\n");
-		gets(str);
+		gets_s(str);
 		pMyClass->IsValidNum(str,&result);
 		if(result<100)
 			printf("%s","It's a integer.");
